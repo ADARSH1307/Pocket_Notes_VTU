@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".me3">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/m3"
+        android:onClick="m3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="M-3(18MAT31)"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/mom"
+        android:onClick="me3_mom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MECHANICS OF MATERIALS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/bt"
+        android:onClick="me3_bt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="BASIC THERMODYNAMICS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ms"
+        android:onClick="me3_ms"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MAREIAL SCIENCE"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/mcw"
+        android:onClick="me3_mcw"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="METAL CASTING AND WELDING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/mmm"
+        android:onClick="me3_mmm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mcw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MECHANICAL MEASUREMENT AND METROLOGY"
+        app:backgroundTint="#0BC7DF" />
+
+
+    <Button
+        android:id="@+id/mcf"
+        android:onClick="me3_mcf"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mmm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="METAL CUTTING AND FORMING"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

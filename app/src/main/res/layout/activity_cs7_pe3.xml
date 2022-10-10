@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cs7_pe3">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="cs7_pe3_dip"
+        android:text="DIGITAL IMAGE PROCESSING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/nm"
+        android:onClick="cs7_pe3_nm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NETWORK MANGEMENT"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/nlp"
+        android:onClick="cs7_pe3_nlp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NATURAL LANGUAGE PROCESSING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/cr"
+        android:onClick="cs7_pe3_cr"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nlp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="CRYPTOGRAPHY"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/rpad"
+        android:onClick="cs7_pe3_rpad"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ROBOTIC PROCESS AUTOMATION DESIGN AND DEVELOPMENT"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

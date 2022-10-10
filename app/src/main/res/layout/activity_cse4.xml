@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cse4">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/m4"
+        android:onClick="m4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="M-4(18MAT41)"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/daa"
+        android:onClick="cse4_daa"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="DESIGN ANALYSIS OF ALGORITHMS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/os"
+        android:onClick="cse4_os"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/daa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OPERATING SYSTEMS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/mm"
+        android:onClick="cse4_mes"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/os"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MICROCONTROLER AND EMBEDED SYSTEMS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ooc"
+        android:onClick="cse4_ooc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OBJECT ORIENTED CONCEPTS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/dc"
+        android:onClick="cse4_dc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ooc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="DATA COMMUNICATION"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/elective"
+        android:onClick="es34"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ELECTIVE SUBJECTS"
+        app:backgroundTint="#0BC7DF" />
+
+</RelativeLayout>

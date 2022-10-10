@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".me7_oe">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ee"
+        android:onClick="me7_oe_ee"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ENERGY AND ENVIRONMENT"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ae"
+        android:onClick="me7_oe_ae"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="AUTOMATIVE ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/is"
+        android:onClick="me7_oe_is"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ae"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="INDUSTRY SECURITY"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ot"
+        android:onClick="me7_oe_ot"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/is"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OPTIMIZATION TECHNIQUES"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

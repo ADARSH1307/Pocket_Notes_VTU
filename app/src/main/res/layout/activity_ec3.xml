@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ec3">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/m3"
+        android:onClick="m3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="M-3(18MAT31)"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/nt"
+        android:onClick="ec3_nt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NETWORK THEORY"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ed"
+        android:onClick="ec3_ed"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ELECTRONIC DEVICES"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/dsd"
+        android:onClick="ec3_dsd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="DIGITAL SYSTEM DESIGN"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/coa"
+        android:onClick="ec3_coa"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dsd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="COMPUTER ORGANIZATION AND ARCHITECTURE"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/pei"
+        android:onClick="ec3_pei"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="POWER ELECTRONICS AND INSTRUMENTATION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/na"
+        android:onClick="ec3_na"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pei"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NETWORK ANALYSIS"
+        app:backgroundTint="#0BC7DF" />
+
+
+
+</RelativeLayout>

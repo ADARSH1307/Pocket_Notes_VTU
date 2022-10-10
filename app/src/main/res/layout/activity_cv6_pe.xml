@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cv6_pe">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mms"
+        android:onClick="cv6_pe_mmsa"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MATRIX METHOD OF STRUCTURAL ANALYSIS"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/swm"
+        android:onClick="cv6_pe_swm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SOLID WASTE MANAGEMENT"
+        app:backgroundTint="#0BC7DF" />
+
+
+    <Button
+        android:id="@+id/abm"
+        android:onClick="cv6_pe_abm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/swm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ALTERNATE BUIDING MATERIALS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/git"
+        android:onClick="cv6_pe_git"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="GROUND IMPROVEMENT TECHNIIQUES"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/rhta"
+        android:onClick="cv6_pe_rhta"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/git"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="RAILWAY,HARBOUR,\nTUNNELING,AIRPORT"
+        app:backgroundTint="#0BC7DF" />
+
+</RelativeLayout>

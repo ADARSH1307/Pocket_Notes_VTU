@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cv7_pe2">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/toe"
+        android:onClick="cv7_pe2_toe"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="THEORY OF ELASTICITY"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/apc"
+        android:onClick="cv7_pe2_apc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="AIR POLLUTION AND CONTROL"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/pmc"
+        android:onClick="cv7_pe2_pmc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="PAVEMENT MATERIALS AND CONSTRUCTION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/gwh"
+        android:onClick="cv7_pe2_gwh"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pmc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="GROUND WATER HYDRAULICS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ms"
+        android:onClick="cv7_pe2_ms"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gwh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MASONRY STRUCTURES"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

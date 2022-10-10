@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ec4">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mat"
+        android:onClick="m4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="M-4(18MAT41)"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ac"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="ec4_ac"
+        android:text="ANALOG CIRCUITS"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/cs"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ac"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="ec4_cs"
+        android:text="CONTROL SYSTEM"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/esla"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="ec4_esla"
+        android:text="ENGINEERING STATISTICS AND LINEAR ALGEBRA"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/sas"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/esla"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="ec4_coa"
+        android:text="COMPUTER ORGANIZATION AND ARCHITECTURE"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/mc4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="ec4_pei"
+        android:text="POWER ELECTRONICS AND INSTRUMENTATION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/am"
+        android:onClick="ec4_na"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mc4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NETWORK ANALYSIS"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

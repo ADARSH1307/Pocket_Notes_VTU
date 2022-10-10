@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cv5">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text=" CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cse"
+        android:onClick="cv5_cme"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="CONSTRUCTION MANAGEMENT AND ENTREPRENEURSHIP"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ais"
+        android:onClick="cv5_ais"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ANALYSIS OF INDETERMINATE STRUCTURE"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/dse"
+        android:onClick="cv5_drse"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text=" DESIGN OF RC STRUCTURAL ELEMENTS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/bge"
+        android:onClick="cv5_bge"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="BASIC GEOTHCHNICAL ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/mwe"
+        android:onClick="cv5_mww"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MUNCIPAL WASTE WATER ENGINEERING "
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/he"
+        android:onClick="cv5_he"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mwe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="HIGHWAY ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ai5">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/me"
+        android:onClick="ai5_mei"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="MANAGEMENT\nENTREPRENEURSHIP FOR IT INDUSTRY"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ssa"
+        android:onClick="ai5_ssa"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/me"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SENSORS AND SENSOR APPLICATION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/dms"
+        android:onClick="ai5_dms"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ssa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="DATABASE MANAGEMENT SYSTEMS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/mlp"
+        android:onClick="ai5_mlp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MACHINE LEARNING WITH PHYTHON"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/cgip"
+        android:onClick="ai5_cgip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mlp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="COMPUTER GRAPHICS AND IMAGE PROCESSING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/alai"
+        android:onClick="ai5_alal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cgip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="AUTOMATA LANGUAGES AND ARTIFICIAL LANGUAGES"
+        app:backgroundTint="#0BC7DF" />
+
+
+
+
+
+
+</RelativeLayout>

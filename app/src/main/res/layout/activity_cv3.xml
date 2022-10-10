@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cv3">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/m3"
+        android:onClick="m3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="M-3(18MAT31)"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/som"
+        android:onClick="cv3_som"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="STRENGTH OF MATERIALS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/fm"
+        android:onClick="cv3_fm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/som"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="FLUIDS MECHANICS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/bs"
+        android:onClick="cv3_bs"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="BASIC SURVEYING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/eg"
+        android:onClick="cv3_eg"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ENGINEERING GEOLOGY"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/bmc"
+        android:onClick="cv3_bmc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="BUILDING MATERIALS AND CONSTUCTIONS"
+        app:backgroundTint="#0BC7DF" />
+
+
+
+
+</RelativeLayout>

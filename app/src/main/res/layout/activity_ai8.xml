@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ai8">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bda"
+        android:onClick="ai8_bda"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="BIG DATA AND ITS APPLICATION"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/aimlh"
+        android:onClick="ai8_ahc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bda"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="AIML IN HEALTH CARE"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/sms"
+        android:onClick="ai8_sms"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aimlh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SYSTEM MODELLING AND SIMULATION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/aia"
+        android:onClick="ai8_aia"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="A.I. IN AGRICULTURE"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/mndl"
+        android:onClick="ai8_mnnl"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MULTILAYER NEURAL NETWORKS DEEP LEARNING"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

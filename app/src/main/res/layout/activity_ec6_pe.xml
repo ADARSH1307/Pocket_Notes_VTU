@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ec6_pe">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/os"
+        android:onClick="ec6_pe_os"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OPERATING SYSTEM"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ann"
+        android:onClick="ec6_pe_ann"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/os"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ARTIFICIAL NEURAL NETWOEKS"
+        app:backgroundTint="#0BC7DF" />
+
+
+    <Button
+        android:id="@+id/oopc"
+        android:onClick="ec6_pe_oop"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ann"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OBJECT ORIENTED PROGRAMMING WITH C++"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/dsduv"
+        android:onClick="ec6_pe_dssv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oopc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="DIGITAL SYSTEM SESIGN USING VERILOG"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ne"
+        android:onClick="ec6_pe_ne"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dsduv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NANO-ELECTRONICS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/pap"
+        android:onClick="ec6_pe_pap"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="PYTHON APPLICATION PROGRAMMING"
+        app:backgroundTint="#0BC7DF" />
+
+</RelativeLayout>

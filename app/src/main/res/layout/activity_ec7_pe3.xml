@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ec7_pe3">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/iwsn"
+        android:onClick="ec7_pe3_iwsn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="IOT AND WIRELESS SENSOR NETWORK"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ae"
+        android:onClick="ec7_pe3_ae"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iwsn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="AUTOMOTIVE ELECTRONICS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/mc"
+        android:onClick="ec7_pe3_mc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ae"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MULTIMEDIA COMMUNICATION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/cry"
+        android:onClick="ec7_pe3_cry"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="CRYPTOGRAPHY"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ml"
+        android:onClick="ec7_pe3_ml"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MACHINE LEARNING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ct"
+        android:onClick="ec7_pe3_ct"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ml"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="COMMUNICATION THEORY"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/nn"
+        android:onClick="ec7_pe3_nn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ct"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NEURAL NETWORKS"
+        app:backgroundTint="#0BC7DF" />
+
+
+
+</RelativeLayout>

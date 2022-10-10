@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".me8">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ee"
+        android:onClick="me8_ee"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ENERGY ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/cmt"
+        android:onClick="me8_cmt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="CNC MACHINE TOOLS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/tb"
+        android:onClick="me8_t"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cmt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="TRIBOLOGY"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ndts"
+        android:onClick="me8_ndte"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NON DESTRUCTIVE TESTING AND EVALUATION"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ae"
+        android:onClick="me8_ae"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ndts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="AUTOMOBILE ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/td"
+        android:onClick="me8_td"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ae"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="TOOL DESIGN"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/fm"
+        android:onClick="me8_fm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/td"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="FRACTURE MECHANICS"
+        app:backgroundTint="#0BC7DF" />
+</RelativeLayout>

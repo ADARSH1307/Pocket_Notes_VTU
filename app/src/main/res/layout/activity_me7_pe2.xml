@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".me7_pe2">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="me7_pe2_dm"
+        android:text="DESIGN FOR MANUFACTURE"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ar"
+        android:onClick="me7_pe2_ar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="AUTOMATION AND ROBOTICS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/cfd"
+        android:onClick="me7_pe2_cfd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="COMPUTATIONAL FLUID DYNAMICS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/tqm"
+        android:onClick="me7_pe2_tqm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="TOTAL QUALITY MANAGEMENT"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/or"
+        android:onClick="me7_pe2_or"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tqm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OPERATIONS RESERVATION"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

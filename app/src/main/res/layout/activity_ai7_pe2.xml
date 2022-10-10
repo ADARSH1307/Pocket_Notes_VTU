@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ai7_pe2">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/cs"
+        android:onClick="ai7_pe2_cs"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="CONGNITIVE SYSTEM"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/sp"
+        android:onClick="ai7_pe2_sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SPEECH PROCESSING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/ba"
+        android:onClick="ai7_pe2_ba"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="BUSINESS ANALYTICS"
+        app:backgroundTint="#0BC7DF" />
+
+
+
+        <Button
+            android:id="@+id/pc"
+            android:onClick="ai7_pe2_pc"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ba"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="PERVASIVE COMPUTING"
+            app:backgroundTint="#0BC7DF" />
+
+        <Button
+            android:id="@+id/hci"
+            android:onClick="ai7_pe2_hci"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="HUMAN COMPUTER INTERACTION"
+            app:backgroundTint="#0BC7DF" />
+        <Button
+            android:id="@+id/kde"
+            android:onClick="ai7_pe2_kde"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hci"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="KNOWLEDGE AND DATA ENGINEERING"
+            app:backgroundTint="#0BC7DF" />
+
+
+    </RelativeLayout>
+

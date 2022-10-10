@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cv6">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dsse"
+        android:onClick="cv6_dsse"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="DESIGN OF STELL STRUCTURAL ELEMENTS"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/age"
+        android:onClick="cv6_age"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dsse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="APPLIED GEOTECHNICAL ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/hie"
+        android:onClick="cv6_hie"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="HYDROLOGY AND IRRIGATION ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/pe"
+        android:onClick="cv6_pe"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="PROFESSIONAL ELECTIVE"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/oe"
+        android:onClick="cv6_oe"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OPEN ELECTIVE"
+        app:backgroundTint="#0BC7DF" />
+
+
+
+
+
+
+</RelativeLayout>

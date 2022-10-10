@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sem">
+
+    <TextView
+        android:id="@id/sem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:text="CHOOSE SEMESTER"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sem1"
+        android:onClick="sem1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SEMESTER 1 (P)"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/sem2"
+        android:onClick="sem2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SEMESTER 2 (C)"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/sem3"
+        android:onClick="sem3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SEMESTER 3"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/sem4"
+        android:onClick="sem4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SEMESTER 4"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/sem5"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="sem5"
+        android:text="SEMESTER 5"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/sem6"
+        android:onClick="sem6"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SEMESTER 6"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/sem7"
+        android:onClick="sem7"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SEMESTER 7"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/sem8"
+        android:onClick="sem8"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sem7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="SEMESTER 8"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

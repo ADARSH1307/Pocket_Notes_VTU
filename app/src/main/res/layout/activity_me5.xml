@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".me5">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text=" CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/me"
+        android:onClick="me5_mae"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MANAGEMENT AND ECONOMICS"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/dme"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/me"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="me5_dme"
+        android:text="DESIGN OF MACHINE ELEMENTS 1"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/dm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dme"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="me5_dom"
+        android:text="DYNAMICS OF MACHINE"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/tm"
+        android:onClick="me5_tb"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="TURBO MACHINES"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/fpe"
+        android:onClick="me5_fpe"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text=" FLUID POWER ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/om"
+        android:onClick="me5_om"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fpe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OPERATIOND MANAGEMENT"
+        app:backgroundTint="#0BC7DF" />
+</RelativeLayout>

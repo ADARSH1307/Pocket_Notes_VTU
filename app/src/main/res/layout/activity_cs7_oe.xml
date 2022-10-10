@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cs7_oe">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ibda"
+        android:onClick="cs7_oe_ibda"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="INTRODUCTION TO BIG DATA ANALYSIS"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/iai"
+        android:onClick="cs7_oe_iai"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibda"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="INTRODUCTON TO ARTIFICIAL INTELLIGENCE"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/idnf"
+        android:onClick="cs7_oe_idnf"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iai"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="INTRODUCTION TO DOT NET FRAMEWORK"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/pap"
+        android:onClick="cs7_oe_pap"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idnf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="PYTHON APPLICATION PROGRAMMING"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

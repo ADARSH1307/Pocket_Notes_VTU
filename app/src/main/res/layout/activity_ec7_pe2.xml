@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ec7_pe2">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/rts"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="ec7_pe2_rts"
+        android:text="REAL TIME SYSTEM"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/sc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="ec7_pe2_sc"
+        android:text="SATELLITE COMMUNICATION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/dip"
+        android:onClick="ec7_pe2_dip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="DIGITAL IMAGE PROCESSING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/dsc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="ec7_pe2_dsc"
+        android:text="DATA STRUCTURES USING C++"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/dspa"
+        android:onClick="ec7_pe2_dspa"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dsc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="DSP ALGORITHMS AND ARCHITECTURES"
+        app:backgroundTint="#0BC7DF" />
+
+
+</RelativeLayout>

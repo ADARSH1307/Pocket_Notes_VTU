@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "274072608503",
+    "project_id": "data-7fc4d",
+    "storage_bucket": "data-7fc4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274072608503:android:f881d330170d4bb49dbdf2",
+        "android_client_info": {
+          "package_name": "com.example.animedrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274072608503-voe78hod3c4bae30ocph25ghcgtko08k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1DstSB0I-fFjokiO9vRC-8EgAh_d259k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274072608503-voe78hod3c4bae30ocph25ghcgtko08k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ec8">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/wcc"
+        android:onClick="ec8_wcc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="WIRELESS AND CELLULAR COMMUNICATION"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ns"
+        android:onClick="ec8_ns"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wcc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="NETWORK SECURITY"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/mes"
+        android:onClick="ec8_mems"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ns"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MICRO ELECTRO MECHANICAL SYṇSTEMS"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/re"
+        android:onClick="ec8_re"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="RADAR ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ocn"
+        android:onClick="ec8_ocn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OPTICAL COMMUNICATION NETWORKS"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/bsp"
+        android:onClick="ec8_bsp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ocn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="BIOMEDICAL SIGNAL PROCESSING"
+        app:backgroundTint="#0BC7DF" />
+</RelativeLayout>

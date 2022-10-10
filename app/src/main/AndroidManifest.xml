@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.animedrip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnimeDrip">
+        <activity
+            android:name=".paste"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cv8_pd"
+            android:exported="false" />
+        <activity
+            android:name=".cv8_rar"
+            android:exported="false" />
+        <activity
+            android:name=".cv8_afe"
+            android:exported="false" />
+        <activity
+            android:name=".cv8_ps"
+            android:exported="false" />
+        <activity
+            android:name=".cv8_be"
+            android:exported="false" />
+        <activity
+            android:name=".cv8_dpsc"
+            android:exported="false" />
+        <activity
+            android:name=".cv8"
+            android:exported="false" />
+        <activity
+            android:name=".me8_fm"
+            android:exported="false" />
+        <activity
+            android:name=".me8_td"
+            android:exported="false" />
+        <activity
+            android:name=".me8_ae"
+            android:exported="false" />
+        <activity
+            android:name=".me8_ndte"
+            android:exported="false" />
+        <activity
+            android:name=".me8_t"
+            android:exported="false" />
+        <activity
+            android:name=".me8_cmt"
+            android:exported="false" />
+        <activity
+            android:name=".me8_ee"
+            android:exported="false" />
+        <activity
+            android:name=".me8"
+            android:exported="false" />
+        <activity
+            android:name=".ec8_bsp"
+            android:exported="false" />
+        <activity
+            android:name=".ec8_ocn"
+            android:exported="false" />
+        <activity
+            android:name=".ec8_re"
+            android:exported="false" />
+        <activity
+            android:name=".ec8_mems"
+            android:exported="false" />
+        <activity
+            android:name=".ec8_ns"
+            android:exported="false" />
+        <activity
+            android:name=".ec8_wcc"
+            android:exported="false" />
+        <activity
+            android:name=".ec8"
+            android:exported="false" />
+        <activity
+            android:name=".ai8_mnnl"
+            android:exported="false" />
+        <activity
+            android:name=".ai8_sms"
+            android:exported="false" />
+        <activity
+            android:name=".ai8_aia"
+            android:exported="false" />
+        <activity
+            android:name=".ai8_ahc"
+            android:exported="false" />
+        <activity
+            android:name=".ai8_bda"
+            android:exported="false" />
+        <activity
+            android:name=".ai8"
+            android:exported="false" />
+        <activity
+            android:name=".cs8_map"
+            android:exported="false" />
+        <activity
+            android:name=".cs8_nd"
+            android:exported="false" />
+        <activity
+            android:name=".cs8_san"
+            android:exported="false" />
+        <activity
+            android:name=".cs8_mc"
+            android:exported="false" />
+        <activity
+            android:name=".cs8_iot"
+            android:exported="false" />
+        <activity
+            android:name=".cs8"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe3_dhs"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_oe_epm"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_oe_nma"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_oe_fem"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_oe"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe3_utp"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe3_res"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe3_dcbs"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe3_ee"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe3"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe2_ms"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe2_gwh"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe2_pmc"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe2_apc"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe2_toe"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_pe2"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_drss"
+            android:exported="false" />
+        <activity
+            android:name=".cv7_qscm"
+            android:exported="false" />
+        <activity
+            android:name=".cv7"
+            android:exported="false" />
+        <activity
+            android:name=".me7_oe_ot"
+            android:exported="false" />
+        <activity
+            android:name=".me7_oe_is"
+            android:exported="false" />
+        <activity
+            android:name=".me7_oe_ee"
+            android:exported="false" />
+        <activity
+            android:name=".me7_oe"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe3_mech"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe3_pm"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe3_tp"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe3_esbc"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe3_am"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe3"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe2_or"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe2_tqm"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe2_cfd"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe2_ar"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe2_dm"
+            android:exported="false" />
+        <activity
+            android:name=".me7_pe2"
+            android:exported="false" />
+        <activity
+            android:name=".me7_cadm"
+            android:exported="false" />
+        <activity
+            android:name=".me7_ce"
+            android:exported="false" />
+        <activity
+            android:name=".me7"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe3_nn"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe3_ct"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe3_ml"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe3_cry"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe3_mc"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe3_ae"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe3_iwsn"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe2_dspa"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe2_dsc"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe2_dip"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe2_sc"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe2_rts"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe3"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_pe2"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_vd"
+            android:exported="false" />
+        <activity
+            android:name=".ec7_cn"
+            android:exported="false" />
+        <activity
+            android:name=".ec7"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_pe2_kde"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_pe2_hci"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_pe2_pc"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_pe2_ba"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_pe2_sp"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_pe2_cs"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_oe_ibm"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_oe_icc"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_oe_ibi"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_oe"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_pe2"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_iot"
+            android:exported="false" />
+        <activity
+            android:name=".ai7_rpa"
+            android:exported="false" />
+        <activity
+            android:name=".ai7"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe2_aca"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_oe_pap"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_oe_idnf"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_oe_iai"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_oe_ibda"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe3_rpad"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe3_cr"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe3_nlp"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe3_nm"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe3_dip"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe2_uid"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe2_adc"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe2_hpc"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe2_sadp"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_bda"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_aiml"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_oe"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe3"
+            android:exported="false" />
+        <activity
+            android:name=".cs7_pe2"
+            android:exported="false" />
+        <activity
+            android:name=".cs7"
+            android:exported="false" />
+        <activity
+            android:name=".is6_wtap"
+            android:exported="false" />
+        <activity
+            android:name=".is6_st"
+            android:exported="false" />
+        <activity
+            android:name=".is6_fs"
+            android:exported="false" />
+        <activity
+            android:name=".is6"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_oe_scce"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_oe_ohs"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_oe_te"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_oe_rsg"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_pe_rhta"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_pe_git"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_pe_abm"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_pe_swm"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_pe_mmsa"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_hie"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_age"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_dsse"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_oe"
+            android:exported="false" />
+        <activity
+            android:name=".cv6_pe"
+            android:exported="false" />
+        <activity
+            android:name=".pe"
+            android:exported="false" />
+        <activity
+            android:name=".cv6"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe_ed"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe_cmt"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe_vne"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe_toe"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe_rac"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe_ntm"
+            android:exported="false" />
+        <activity
+            android:name=".me6_ht"
+            android:exported="false" />
+        <activity
+            android:name=".me6_dme"
+            android:exported="false" />
+        <activity
+            android:name=".me6_fee"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe_dme"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe_fem"
+            android:exported="false" />
+        <activity
+            android:name=".me6_oe"
+            android:exported="false" />
+        <activity
+            android:name=".me6_pe"
+            android:exported="false" />
+        <activity
+            android:name=".me6"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_pe_pap"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_pe_ne"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_pe_dssv"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_pe_oop"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_pe_ann"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_pe_os"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_oe_ssc"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_oe_sp"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_maa"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_es"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_dc"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_pe"
+            android:exported="false" />
+        <activity
+            android:name=".ec6_oe"
+            android:exported="false" />
+        <activity
+            android:name=".ec6"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_pe_cns"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_pe_dmw"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_pe_cns"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_cns"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_pe_dss"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_pe_sec"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_pe_acgv"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_oe_iwt"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_oe_isc"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_oe_ita"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_wamt"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_aipv"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_aat"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_pe"
+            android:exported="false" />
+        <activity
+            android:name=".ai6_oe"
+            android:exported="false" />
+        <activity
+            android:name=".ai6"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_pe_dmdw"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_pe_sms"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_pe_ajj"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_pe_cca"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_pe_oomd"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_oe_ios"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_oe_pij"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_oe_ids"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_oe_mad"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_wta"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_cgv"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_ssc"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_pe"
+            android:exported="false" />
+        <activity
+            android:name=".cse6_oe"
+            android:exported="false" />
+        <activity
+            android:name=".cse6"
+            android:exported="false" />
+        <activity
+            android:name=".env5"
+            android:exported="false" />
+        <activity
+            android:name=".cv5_he"
+            android:exported="false" />
+        <activity
+            android:name=".cv5_mww"
+            android:exported="false" />
+        <activity
+            android:name=".cv5_bge"
+            android:exported="false" />
+        <activity
+            android:name=".cv5_drse"
+            android:exported="false" />
+        <activity
+            android:name=".cv5_ais"
+            android:exported="false" />
+        <activity
+            android:name=".cv5_cme"
+            android:exported="false" />
+        <activity
+            android:name=".cv5"
+            android:exported="false" />
+        <activity
+            android:name=".me5_dme"
+            android:exported="false" />
+        <activity
+            android:name=".me5_om"
+            android:exported="false" />
+        <activity
+            android:name=".me5_fpe"
+            android:exported="false" />
+        <activity
+            android:name=".me5_tb"
+            android:exported="false" />
+        <activity
+            android:name=".me5_dom"
+            android:exported="false" />
+        <activity
+            android:name=".me5_mae"
+            android:exported="false" />
+        <activity
+            android:name=".ec5_vh"
+            android:exported="false" />
+        <activity
+            android:name=".ec5_ew"
+            android:exported="false" />
+        <activity
+            android:name=".ec5_etcc"
+            android:exported="false" />
+        <activity
+            android:name=".ec5_itc"
+            android:exported="false" />
+        <activity
+            android:name=".ec5_pcs"
+            android:exported="false" />
+        <activity
+            android:name=".ec5_dsp"
+            android:exported="false" />
+        <activity
+            android:name=".ec5_tie"
+            android:exported="false" />
+        <activity
+            android:name=".ec5"
+            android:exported="false" />
+        <activity
+            android:name=".ai5_alal"
+            android:exported="false" />
+        <activity
+            android:name=".ai5_cgip"
+            android:exported="false" />
+        <activity
+            android:name=".ai5_mlp"
+            android:exported="false" />
+        <activity
+            android:name=".ai5_dms"
+            android:exported="false" />
+        <activity
+            android:name=".ai5_ssa"
+            android:exported="false" />
+        <activity
+            android:name=".ai5_mei"
+            android:exported="false" />
+        <activity
+            android:name=".ai5"
+            android:exported="false" />
+        <activity
+            android:name=".cse5_up"
+            android:exported="false" />
+        <activity
+            android:name=".cse5_adp"
+            android:exported="false" />
+        <activity
+            android:name=".cse5_atc"
+            android:exported="false" />
+        <activity
+            android:name=".cse5_dms"
+            android:exported="false" />
+        <activity
+            android:name=".cse5_cns"
+            android:exported="false" />
+        <activity
+            android:name=".cse5_mei"
+            android:exported="false" />
+        <activity
+            android:name=".cse5"
+            android:exported="false" />
+        <activity
+            android:name=".cv4_wst"
+            android:exported="false" />
+        <activity
+            android:name=".cv4_as"
+            android:exported="false" />
+        <activity
+            android:name=".cv4_ct"
+            android:exported="false" />
+        <activity
+            android:name=".cv4_ah"
+            android:exported="false" />
+        <activity
+            android:name=".cv4_ads"
+            android:exported="false" />
+        <activity
+            android:name=".cv4"
+            android:exported="false" />
+        <activity
+            android:name=".me46_mmm"
+            android:exported="false" />
+        <activity
+            android:name=".me46_camd"
+            android:exported="false" />
+        <activity
+            android:name=".me45_mcw"
+            android:exported="false" />
+        <activity
+            android:name=".me45_mcf"
+            android:exported="false" />
+        <activity
+            android:name=".me4_kom"
+            android:exported="false" />
+        <activity
+            android:name=".me4_fm"
+            android:exported="false" />
+        <activity
+            android:name=".me4_at"
+            android:exported="false" />
+        <activity
+            android:name=".me46"
+            android:exported="false" />
+        <activity
+            android:name=".me45"
+            android:exported="false" />
+        <activity
+            android:name=".me4"
+            android:exported="false" />
+        <activity
+            android:name=".me5"
+            android:exported="false" />
+        <activity
+            android:name=".ec4_coa"
+            android:exported="false" />
+        <activity
+            android:name=".ec4_na"
+            android:exported="false" />
+        <activity
+            android:name=".ec4_pei"
+            android:exported="false" />
+        <activity
+            android:name=".ec_coa"
+            android:exported="false" />
+        <activity
+            android:name=".ec4_esla"
+            android:exported="false" />
+        <activity
+            android:name=".ec4_ac"
+            android:exported="false" />
+        <activity
+            android:name=".ec4_cs"
+            android:exported="false" />
+        <activity
+            android:name=".ec4"
+            android:exported="false" />
+        <activity
+            android:name=".cse4_dc"
+            android:exported="false" />
+        <activity
+            android:name=".cse4_ooc"
+            android:exported="false" />
+        <activity
+            android:name=".cse4_mes"
+            android:exported="false" />
+        <activity
+            android:name=".cse4_os"
+            android:exported="false" />
+        <activity
+            android:name=".cse4_daa"
+            android:exported="false" />
+        <activity
+            android:name=".m4"
+            android:exported="false" />
+        <activity
+            android:name=".cse4"
+            android:exported="false" />
+        <activity
+            android:name=".es34_coi"
+            android:exported="false" />
+        <activity
+            android:name=".es34_kan2"
+            android:exported="false" />
+        <activity
+            android:name=".es34_kan"
+            android:exported="false" />
+        <activity
+            android:name=".es34"
+            android:exported="false" />
+        <activity
+            android:name=".cv3_bmc"
+            android:exported="false" />
+        <activity
+            android:name=".cv3_eg"
+            android:exported="false" />
+        <activity
+            android:name=".cv3_bs"
+            android:exported="false" />
+        <activity
+            android:name=".cv3_fm"
+            android:exported="false" />
+        <activity
+            android:name=".cv3_som"
+            android:exported="false" />
+        <activity
+            android:name=".cv3"
+            android:exported="false" />
+        <activity
+            android:name=".me3_mcf"
+            android:exported="false" />
+        <activity
+            android:name=".me3_mmm"
+            android:exported="false" />
+        <activity
+            android:name=".me3_mcw"
+            android:exported="false" />
+        <activity
+            android:name=".me3_ms"
+            android:exported="false" />
+        <activity
+            android:name=".me3_bt"
+            android:exported="false" />
+        <activity
+            android:name=".me3_mom"
+            android:exported="false" />
+        <activity
+            android:name=".me3"
+            android:exported="false" />
+        <activity
+            android:name=".ec3_na"
+            android:exported="false" />
+        <activity
+            android:name=".ec3_pei"
+            android:exported="false" />
+        <activity
+            android:name=".ec3_coa"
+            android:exported="false" />
+        <activity
+            android:name=".ec3_dsd"
+            android:exported="false" />
+        <activity
+            android:name=".ec3_ed"
+            android:exported="false" />
+        <activity
+            android:name=".ec3_nt"
+            android:exported="false" />
+        <activity
+            android:name=".ec3"
+            android:exported="false" />
+        <activity
+            android:name=".cse3_dms"
+            android:exported="false" />
+        <activity
+            android:name=".cse3_se"
+            android:exported="false" />
+        <activity
+            android:name=".cse3_co"
+            android:exported="false" />
+        <activity
+            android:name=".cse3_ade"
+            android:exported="false" />
+        <activity
+            android:name=".cse3_dsa"
+            android:exported="false" />
+        <activity
+            android:name=".m3"
+            android:exported="false" />
+        <activity
+            android:name=".cse3"
+            android:exported="false" />
+        <activity
+            android:name=".sem2_me"
+            android:exported="false" />
+        <activity
+            android:name=".sem2_cps"
+            android:exported="false" />
+        <activity
+            android:name=".sem2_be"
+            android:exported="false" />
+        <activity
+            android:name=".sem2_chem"
+            android:exported="false" />
+        <activity
+            android:name=".sem2_m2"
+            android:exported="false" />
+        <activity
+            android:name=".sem1_eg"
+            android:exported="false" />
+        <activity
+            android:name=".sem1_cv"
+            android:exported="false" />
+        <activity
+            android:name=".sem1_be"
+            android:exported="false" />
+        <activity
+            android:name=".sem1_phy"
+            android:exported="false" />
+        <activity
+            android:name=".sem1_m1"
+            android:exported="false" />
+        <activity
+            android:name=".sem8"
+            android:exported="false" />
+        <activity
+            android:name=".sem7"
+            android:exported="false" />
+        <activity
+            android:name=".sem6"
+            android:exported="false" />
+        <activity
+            android:name=".sem5"
+            android:exported="false" />
+        <activity
+            android:name=".sem4"
+            android:exported="false" />
+        <activity
+            android:name=".sem3"
+            android:exported="false" />
+        <activity
+            android:name=".sem2"
+            android:exported="false" />
+        <activity
+            android:name=".sem1"
+            android:exported="false" />
+        <activity
+            android:name=".sem"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cse6_pe">
+
+    <TextView
+        android:id="@id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE SUBJECT"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/oomd"
+        android:onClick="cse6_pe_oomd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="OBJECT ORIENTED MODELLING AND DESIGN"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/cc"
+        android:onClick="cse6_pe_cca"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oomd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="CLOUD COMPUTING AND ITS APPLICATION"
+        app:backgroundTint="#0BC7DF" />
+
+
+    <Button
+        android:id="@+id/aj"
+        android:onClick="cse6_pe_ajj"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ADVANCED JAVA AND J2EE"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/sm"
+        android:onClick="cse6_pe_sms"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="SYSTEM MODELLING AND SIMULATION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/dmdw"
+        android:onClick="cse6_pe_dmdw"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="DATA MINING AND DATA WAREHOUSING"
+        app:backgroundTint="#0BC7DF" />
+
+</RelativeLayout>

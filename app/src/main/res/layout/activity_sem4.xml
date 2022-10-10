@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sem4">
+
+    <TextView
+        android:id="@id/branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold"
+        android:text="CHOOSE BRANCH"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cs"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/branch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="cse4"
+        android:text="COMPUTER SCIENCE ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ai"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="cse4"
+        android:text="A.I.M.L"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/ec"
+        android:onClick="ec4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ai"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ELECTRONICS AND COMMUNICATION"
+        app:backgroundTint="#0BC7DF" />
+    <Button
+        android:id="@+id/me"
+        android:onClick="me4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="MECHANICAL ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/cv"
+        android:onClick="cv4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/me"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="CIVIL ENGINEERING"
+        app:backgroundTint="#0BC7DF" />
+
+    <Button
+        android:id="@+id/is"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="cse4"
+        android:text="INFORMATION SCIENCE"
+        app:backgroundTint="#0BC7DF" />
+
+
+    <Button
+        android:id="@+id/elective"
+        android:onClick="es34"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/is"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ELECTIVE SUBJECTS"
+        app:backgroundTint="#0BC7DF" />
+
+</RelativeLayout>
