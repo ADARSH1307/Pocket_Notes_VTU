@@ -27,6 +27,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class LoginActivity extends AppCompatActivity {
     public static String PREFS_NAME="MyPrefsFile";
 
+
     private TextView signup,forgot;
     private FirebaseAuth auth;
     private EditText email,password;
