@@ -20,7 +20,7 @@
 
     <Button
         android:id="@+id/m1"
-        android:onClick="m1"
+
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/mod"
@@ -32,7 +32,7 @@
 
     <Button
         android:id="@+id/m2"
-        android:onClick="m2"
+
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/m1"
@@ -43,7 +43,7 @@
         app:backgroundTint="#0BC7DF" />
     <Button
         android:id="@+id/m3"
-        android:onClick="m3"
+
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/m2"
@@ -54,7 +54,7 @@
         app:backgroundTint="#0BC7DF" />
     <Button
         android:id="@+id/m4"
-        android:onClick="m4"
+
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/m3"
@@ -65,7 +65,7 @@
         app:backgroundTint="#0BC7DF" />
     <Button
         android:id="@+id/m5"
-        android:onClick="m5"
+
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/m4"

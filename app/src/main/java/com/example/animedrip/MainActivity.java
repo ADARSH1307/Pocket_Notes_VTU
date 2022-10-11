@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 if(FireBaseAuth.getCurrentUser() != null){
                     startActivity(new Intent(MainActivity.this,sem.class));
-
+                    finish();
                 }
                 else{
                     Intent intent =new Intent(MainActivity.this,LoginActivity.class);
