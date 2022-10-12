@@ -40,7 +40,7 @@ public class cse5_mei extends AppCompatActivity {
     }
     public void m5(View view){
 
-        Uri uri = Uri.parse("https://drive.google.com/file/d/1sx_OOxhMUMpSHcsbWiyvzJOt6Vw5b7l8/view");
+        Uri uri = Uri.parse("https://drive.google.com/file/d/1sx_OOxhMUMpSHcsbWiyvzJOt6Vw5b7l8/viewN");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
