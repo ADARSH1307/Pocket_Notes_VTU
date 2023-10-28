@@ -16,7 +16,7 @@ public class sem1_phy extends AppCompatActivity {
     }
     public void m1(View view){
 
-        Uri uri = Uri.parse("https://drive.google.com/file/d/1_gpzg-neyyiyR7Haazpyy4QpEoQlESxe/view");
+        Uri uri = Uri.parse("https://saw-erp.in");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
